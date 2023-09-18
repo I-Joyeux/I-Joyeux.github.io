@@ -1,0 +1,14 @@
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\bin\Debug\net6.0\test-test.exe
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\bin\Debug\net6.0\test-test.deps.json
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\bin\Debug\net6.0\test-test.runtimeconfig.json
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\bin\Debug\net6.0\test-test.dll
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\bin\Debug\net6.0\test-test.pdb
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.AssemblyInfoInputs.cache
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.AssemblyInfo.cs
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.csproj.CoreCompileInputs.cache
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.dll
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\refint\test-test.dll
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.pdb
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\test-test.genruntimeconfig.cache
+C:\Users\joyeu\OneDrive\cwi(C#)\test-test\test-test\obj\Debug\net6.0\ref\test-test.dll
