@@ -1,0 +1,25 @@
+using System;
+
+/// <summary>
+/// Summary description for Class1
+/// </summary>
+public class Class1
+{
+	public Class1()
+	{
+        //double pay = 23.53
+        //double hour=49.23
+        //double check = pay*hour
+        //Console.WriteLine(check);
+
+        string name = ReadLine("your name: ");
+        int number = ReadLine("first number: ");
+        Writeline("good morning {0}! Enter a number {1}" name,number)
+        int number2 = Readline("second number: ");
+        
+
+        //
+        // TODO: Add constructor logic here
+        //
+    }
+}
