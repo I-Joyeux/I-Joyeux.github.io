@@ -1,0 +1,34 @@
+/*Jeffrey Paulus
+  Joyeux Irashubije
+10-24-23*/
+table {
+  width: 100%;
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #DFA478;
+}
+
+
+main{
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial,Verdana,Tahoma;
+}
