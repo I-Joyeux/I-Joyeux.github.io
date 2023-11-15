@@ -1,0 +1,49 @@
+/*J0yeux Irashubije  */
+/*11/14/2023  */
+
+div{
+    
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    padding: 20px;
+}
+.one{
+    transition: .5s ease;
+ }
+ 
+.one:hover{
+  scale: 2;
+}
+
+.two{
+    transition: .5s ease-in;
+ }
+ 
+.two:hover{
+  scale: 2;
+}
+
+.three{
+    transition: .5s ease-out;
+ }
+ 
+.three:hover{
+  scale: 2;
+}
+
+.four{
+    transition: .5s ease-in-out;
+ }
+ 
+.four:hover{
+  scale: 2;
+}
+
+.five{
+    transition: .5s linear;
+ }
+ 
+.five:hover{
+  scale: 2;
+}
