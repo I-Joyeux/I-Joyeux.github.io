@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joyeux Irashubije portfolio</title>
+        <meta name="author" content="Joyeux Irashubije" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Joyeux Irashubije personal portfolio" />
+        <meta name="keywords" content="personal portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experince.html">Experice</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="mailto:joyeuxirashubije@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                <!-- Group Fields Together, page 104 -->
+                <fieldset>
+                    <legend>How do I contact you?</legend>
+                    <!-- Company Select Box, page 97 -->
+                    <div>
+                        <label for="lname">company name</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="company name..">
+                    </div>
+                    <!-- Person to Contact Select Box, page 97 -->
+                    <div>
+                        <label for="lname">persnal to contact</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name and first.." required>
+                    </div>
+                    <!-- Email, textbook file rental.html -->	
+                    <!--Video 9.9 Building and Testing a Valid Form-->	
+                    <div>
+                        <label for="email">email:</label>
+                        <input type="email" name="email" placeholder="email" id="email" required>
+                    </div>
+                    <!-- Phone, textbook file rental.html-->
+                    <!--Video 9.9 Building and Testing a Valid Form-->
+                    <div>
+                        <label for="Phone">Phone number</label>
+                        <input type="tel" name="Phone" placeholder="000-000-0000" pattern="{0-9}{3}-{0-9}{3}-{0-9}{4}">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What opportunities are available at your company?</legend>
+                    
+                    <label for="lname"> Type of Position</label>
+                    <select name="Position" >
+                        <option value="internship">internship</option>
+                        <option value="part-time">part-time</option>
+                        <option value="Full-time">Full-time</option>
+                        <option value="Contract">Contract</option>
+                        <option value="Temporary">Temporary</option>
+                        <option value="On call">On call</option>
+                    </select>
+                    
+                    <div>
+                        <P for="lname">how did you hear about me?</P>
+                        <input type="radio" name="radio-option" value="LinkedIn" />LinkedIn
+                        <input type="radio" name="radio-option" value="Job Fair" />Job Fair
+                        <input type="radio" name="radio-option" value="CWI Corporate Partner" />CWI Corporate Partner
+                    
+                    <div>
+                        
+                        <label for="How should I prepare for the interview"></label>
+                        <textarea name="comment" id="comment" cols="100" rows="10" placeholder="How should I prepare for the interview"></textarea>
+                        
+                    </div>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+             </form>
+        </main>
+
+        <footer class="footer">
+            <a href="#"><img width="25px" src="./images/github-mark-white.png" alt="github"></a>
+            <a href="#"><img width="25px" src="./images/LI-In-Bug.png" alt="linkedin"></a>
+            <p><a href="tel:+12083406850">call me</a></p>
+            <p><a href="mailto:Joyeux.Irashubije@gmail.com">Email me</a></p>
+        </footer>
+    </body>
+</html>
