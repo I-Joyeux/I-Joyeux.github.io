@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/FIRESTARTER.TTF);
+}
+*{
+    padding: 0;
+    margin: 0;   
+}
+html{
+  
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family:'Poppins', sans-serif,Arial;
+    background-color: #393053;
+    color: whitesmoke;
+}
+main{
+    margin-top:80px ;
+   
+}
+
+nav{
+    z-index: 5;
+    background-color: #18122B;
+    height: auto;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+li:hover{
+    background-color: #B06500;
+    border-radius: 5px;
+}
+li:first-child{
+    background: #393053;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    border-radius: 100%;
+    margin-right:auto;
+    margin-left: 150px;
+}
+li:first-child:hover{
+    background-color: #B06500;
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:link{
+    color: azure;
+}
+a:visited{
+    color:rgb(255, 255, 255) ;
+}
+
+a:active{
+    color: #000000;
+}
+.home img{
+    box-shadow: -5px 10px 10px -30px  #18122B;
+    filter: drop-shadow(5px 5px 10px  #18122B);
+    border-radius: 5px;
+    order: 1;
+}
+.home p{
+    text-align: center;
+}
+.home h1{
+    font-family: myFont,system-ui, 'Helvetica Neue', sans-serif;
+}
+
+.home{
+    font-size: 30px;
+    padding-top: 10%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+@media screen and (max-width: 830px) {
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .home p{
+        text-align: center;
+    }
+    .home div{
+        margin-top: 20px;
+    }
+    li:first-child{
+        background: #393053;
+        border-radius: 100%;
+    }
+    /* ul{
+        justify-content: center;
+        margin-right: 0;
+    } */
+   
+}
+
+
+/*home media query at 830 */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    
+}
+.footer p,img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer p a {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: #B06500;
+}
+/* home and the footer */
+
+
+.history{
+    
+    padding: 5px;
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 25px;
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+   
+   
+}
+.portion{
+    background-image:linear-gradient(197deg,#0826714b 0%, #660a974b 80%);
+    box-shadow: -29px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 18px 16px 26px -9px rgba(0,0,0,0.75);
+    border-radius: 5px;
+   
+}
+
+.portion img{
+    float: left;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.portion p{
+    font-size: 15px;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+@media only screen and (max-width:1331px) {
+    .history{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 25px;
+    }
+    .contact{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    .portion p{
+        margin-top: 0px;
+        margin-right: 20px;
+    }
+  
+    .portion img{
+        height: 300px;
+        width: 400px;
+        display: inline-flex;
+        float: none;
+        margin: 20px,auto,20px,65px ;
+    }
+    .contact{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    li:first-child{
+        background:none;
+        
+    }
+}
+
+/* 
+the about page up above
+*/
+
+.Table{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+caption{
+    font-family: myfont;
+    font-weight: 100;
+    font-size: 30px;
+}
+table {
+  width: 60%;
+  background:#18122B;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #322b26;
+}
+table tfoot{
+    text-align: center;
+}
+/* table in my "experience page"*/
+.Cards{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+.Card{
+    margin: 20px;
+    background-color: #18122B;
+    padding: 20px;
+}
+.Card a h2,h3{
+    background-color: #322b26;
+    text-align: center;
+
+}
+.Card h2{
+    border-radius: 20px;
+    text-align: center;
+}
+.Card a img{
+    height: 300px;
+    object-fit: cover;
+}
+/* cards on experience page */
+
+
+.contact{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.first_portion div{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}
+fieldset{
+    margin-bottom:20px;
+}
+.second_portion{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.second_portion select{
+    margin-bottom: 15px;
+}
+.second_portion div{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}
+.placeholder{
+    color:black;
+}
+input:focus-visible{
+    background-color: rgba(141, 80, 0, 0.2);
+    color: white;
+    transition: .5s;
+    border: none;
+}
+textarea{
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+/* last page,contact */
