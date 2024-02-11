@@ -1,0 +1,99 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.home img{
+    position: fixed;
+    width: 150px;
+    z-index: -2;
+    opacity: 50%;
+    top: 20%;
+    right: 10%;
+}
+.two{
+    position: fixed;
+    width: 100px;
+    z-index: 2;
+    opacity: 30%;
+    top: 30%;
+    right: 80%; 
+}
+.center{
+    margin-top: 22%;
+    margin-left: 20%;
+    font-size: x-large;
+}
+.center h1{
+    font-family: 'Ruslan Display', sans-serif;
+    color: #fe8929;
+}
+.center p{
+    width: 200px;
+    margin-left: 30px;
+    font-family: 'Roboto Condensed', sans-serif;}
+.center img{
+    position: absolute;
+    top:50%;
+    right: 13%;
+    scale: 150%;
+    z-index: -1;
+}
+.down{
+    display: flex;
+    justify-content: center;
+   
+}
+.down img{
+  border-radius: 5% 5% 0px 0px;
+    scale: 115%;
+    position: fixed;
+    top:60%;
+    z-index:-12 ;
+    opacity: 7%;
+}
+
+
+h2{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 19px 21px -1px rgba(80, 38, 2, 0.326);
+    margin-bottom:50px ;
+    background-color:#5a2901;
+    font-style: italic;
+    height: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: antiquewhite;
+    z-index: 5;
+    padding-top: 50px;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    
+    padding-right:4px;
+    padding-left: 4px;
+    border-radius: 4px;
+    background-color:#fe8929;
+    color: antiquewhite;
+    text-decoration: none;
+}
