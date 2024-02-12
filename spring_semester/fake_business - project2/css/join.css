@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.join{
+    
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-size: x-large;
+    margin-bottom: 5%;
+}
+.join h1{
+    font-family: 'Ruslan Display', sans-serif;
+    color: #fe8929;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
