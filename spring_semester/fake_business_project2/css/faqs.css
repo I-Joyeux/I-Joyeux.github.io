@@ -1,0 +1,48 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#faqs{
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-size: x-large;
+}
+.faqs h1{
+    font-family: 'Ruslan Display', sans-serif;
+    color: #fe8929;
+}
+h3 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(../photo/plus.png) no-repeat left center;
+    color: aliceblue;
+}
+h3.minus {
+    background: url(../photo/minus.png) no-repeat left center;
+}  
+.faqs a {
+   color: aliceblue;
+    text-decoration: none; 
+}
+.faqs a:focus, a:hover { 
+	color: #5b310e; 
+}
+.faqs div {
+    display: none;
+}
+.faqs div.open {
+    display: block;
+}
+.faqs ul {
+    padding-left: 45px;
+}
+.faqs li {
+    padding-bottom: .25em;
+}
+.faqs p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+}
