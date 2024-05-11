@@ -1,0 +1,75 @@
+.navbar{
+    background-color: #1d2e28 !important;
+    box-shadow:  20px 20px 40px #121d19,-20px -20px 40px #18392B;
+    height:90px ;
+}
+.nav-item{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-link{
+    color: aliceblue;
+
+}
+body{
+    background-color: #18392B;
+    color: aliceblue;
+}
+.Who-what{
+    display: inline-block;
+    margin-right: 30px;
+}
+.Who-what h2{
+    margin-left: 20px;
+}
+.Who-what h3{
+    margin-left: 4em;
+}
+.Thumbnail{
+    margin-top: 50px;
+}
+.box{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.custom-height{
+    margin-top: 20px;
+    height: 80vh;
+    
+}
+.card-img-top{
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {  /* Targets screens wider than small (768px is Bootstrap's breakpoint) */
+    .col-md-3 {
+      flex: 0 0 50%;  /* Makes cards flex equally and take up 50% width each */
+    }
+    
+    
+  }
+
+.custom-shape-divider-bottom-1714891819{
+    
+}
+
+footer{
+    height: 150px;
+    background-color:#12111162;
+}
+.card{
+    color: white;
+    background-color: #12111162;
+    border: solid black;
+}
+
+.lines{
+    border: dotted black;
+    padding: 10px;
+    background-color: #121d192c;
+}
+.form-control{
+    background-color: #2f614f41;
+    border: #1d2e28;
+}
