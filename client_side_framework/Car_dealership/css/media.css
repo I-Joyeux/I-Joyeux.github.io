@@ -1,0 +1,25 @@
+.media{
+  display: flex;
+  flex-direction: row;
+ 
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.media div{
+  background-color: rgb(12, 45, 12);
+  border-radius: 4px;
+  
+}
+.media div p{
+  text-align: center;
+  margin: 30px;
+}
+.media div:hover{
+  scale: 1.05;
+}
+@media screen and (max-width: 922px) {
+  .media div img{
+    width: 600px;
+  }
+}

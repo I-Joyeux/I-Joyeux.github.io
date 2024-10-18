@@ -1,0 +1,21 @@
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    background-color: #001802;
+    position: sticky;
+    top: 60px;
+    
+    z-index: 1;
+  }
+  td, th {
+    border: 2px solid #001802;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8fd0a184;
+  }
