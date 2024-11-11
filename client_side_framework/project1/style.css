@@ -1,0 +1,10 @@
+.slider{
+    height: 50%;
+    border-radius: 20px;
+}
+body{
+    overflow-x: hidden;
+}
+.first{
+    padding-top: 3px;
+}
