@@ -1,29 +1,39 @@
-# Joyeux Irashubije
-# 01/25/2025
-#!/usr/bin/env python3
+# Joyeux Irashubije Feb/05/2025
 
+#!/usr/bin/env python3
+again="y"
 # display a welcome message
 print("The Miles Per Gallon program")
 print()
 
-# get input from the user
-miles_driven= float(input("Enter miles driven:\t\t"))
-gallons_used = float(input("Enter gallons of gas used:\t"))
-cost = float(input("Enter cost per gallon:\t\t"))
+while again.lower()=="y":
+    # get input from the user
+    miles_driven = float(input("Enter miles driven:         "))
+    gallons_used = float(input("Enter gallons of gas used:  "))
+    cost=float(input("Enter cost per gallon       "))
 
-# calculate miles per gallon
-mpg = miles_driven / gallons_used
-mpg = round(mpg, 1)
-Total_cost=cost*gallons_used
-per_mile= Total_cost/miles_driven  #cost per mile is the total cost divided the miles driven
-mpg = round(mpg, 1)
-            
-# format and display the result
-print()
-print(f"Miles Per Gallon:\t\t{mpg}")
-print(f"Total Gas cost:\t\t\t{Total_cost}")
-print(f"cost per mile:\t\t\t{per_mile}")
+    if miles_driven <= 0:
+        print("Miles driven must be greater than zero. Please try again.")
+    elif gallons_used <= 0:
+        print("Gallons used must be greater than zero. Please try again.")
+    elif cost <= 0:
+        print("Gallons used must be greater than zero. Please try again.")
+    
+    #calculating 
+    mpg = round(miles_driven / gallons_used, 2) 
+    Total=round(gallons_used*cost,2)
+    cost_mile=round(Total/miles_driven,2)
+    
+    # display all the calculation
+    print()
+    print("Miles Per Gallon:          ", mpg)
+    print("Total Gas cost:            ", Total)
+    print("Cost per Mile:             ", cost_mile)
+    
+    print()
+    again=input("Get entries for another trip (y/n)? ")
 print()
 print("Bye!")
+
 
 
